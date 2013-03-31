@@ -1,0 +1,12 @@
+*.pyc
+*.pyo
+*.tmp*
+*.sqlite
+*.db
+.project
+.pydevproject
+.settings*
+*~
+docs
+env/*
+media/images/
