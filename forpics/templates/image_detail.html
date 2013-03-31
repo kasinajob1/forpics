@@ -1,0 +1,12 @@
+{%extends "base.html"%}
+
+{% block title %}Picture with ID {{pictue.id}}{% endblock %}
+{% block content %}
+<div style="margin-top: 100px; text-align: center">
+<a href="{{ picture.image.url }}"><img src="{{ picture.image.url_200x150 }}" alt="Picture" /></a><br/>
+<strong>Direct link</strong>: {{ picture.image.url }}<br/>
+<strong>Thumbnail direct link</strong>: {{ picture.image.url_200x150 }}<br/>
+<strong>HTML </strong>: &lt;a href="{{ picture.image.url }}"&gt;&lt;img src="{{ picture.image.url_250x150 }}" alt="Picture" /&gt;&lt;/a&gt;
+
+</div>
+{% endblock %}
