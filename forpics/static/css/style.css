@@ -6,13 +6,13 @@
          background-color:#fffffa;
          margin-left:30%;
          text-align:center; 
-         margin-top:10%;
-         border-spacing:0px;/*cellspacing:poor IE support for  this*/
-        /* border-collapse:separate;*/
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-         border-radius: 20px;
-         border: 1px solid;
+        margin-top:10%;
+        border-spacing:0px;/*cellspacing:poor IE support for  this*/
+       /* border-collapse:separate;*/
+       -moz-border-radius: 10px;
+       -webkit-border-radius: 10px;
+        border-radius: 20px;
+        border: 1px solid;
     }
 
 
