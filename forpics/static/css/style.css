@@ -1,0 +1,247 @@
+
+.thename{
+        display:form;
+        border:2px solid  #666666;
+        width: 400px;
+        background-color:#fffffa;
+        margin-left:30%;
+        text-align:center; 
+        margin-top:10%;
+        border-spacing:0px;/*cellspacing:poor IE support for  this*/
+       /* border-collapse:separate;*/
+       -moz-border-radius: 10px;
+       -webkit-border-radius: 10px;
+        border-radius: 20px;
+        border: 1px solid;
+    }
+
+
+
+
+
+/* CSS Document */
+
+body{text-align:center; 
+     margin:0; padding:0;
+     font-family:Lucida Grande, Arial;
+     font-size:13px; 
+     background-color:#FFFFFa; 
+     color:#464646; }
+
+.wrapper{margin:0 auto;
+         width:900px;
+         margin-top:25px;
+}
+
+.content{background-color:#EEEEEE;height:200px;width:75%;float:left;}
+
+.in{width:75%;  text-align:right; float:right;}
+.quickstats{width:75%;  float:left; text-align:left;}
+
+.line{border-top:1px solid #bab9b9; height:1px; }
+
+
+
+/*......................General.................... */
+
+h1, h2, h3 {margin:0; padding:0; }
+
+h1{font-size:32px;}
+
+h2{font-family:Georgia; font-size:15px; }
+
+h3{font-family:Georgia; font-size:12px; }
+
+.author {margin:0; padding:0; float:right; }
+
+.forms{line-height:2em; }
+
+a:link, a:visited{color:#30a4b1; text-decoration:none;}
+
+a:hover{color:#f7941d;}
+
+.v_line{padding:0 5px; color:#999999;}
+
+
+/*.............................................................Header.................... */
+
+.logo{float:left; margin-top:50px 0; height:40px}
+
+#txt_right{ float:right; margin-top:15px;}
+#weee1{width:85%}
+
+
+
+
+/*.............................................................Form.................... */
+
+
+.box{border:1px solid #bab9b9; padding:10px; width:600px; color:#707070; font-size:14px; }
+
+.box2{border:1px solid #bab9b9; padding:10px; width:400px; color:#707070; font-size:14px; }
+
+.com_btn{margin:0px; padding:10px 20px; border:0px; background-color:#f7941d; color:#fff; font-size:14px; }
+
+
+
+
+/*.............................................................Check YES or NO.................... */
+
+.check{ margin:25px; text-align:left; padding:10px 15px; border:1px solid #bab9b9; background-color:#f7f7f7;}
+
+.good{}
+
+.icon{padding-right:8px; float:left;}
+
+.bad{}
+
+
+/*.................... Navigation .....................*/
+
+
+#navigation{ background-color:#f7941d; 
+             float: left;
+             margin-bottom:20px;
+             width:900px;
+             position:relative;
+             border-width: 2px;
+             -moz-border-radius: 10px;
+             -webkit-border-radius: 10px;
+             border-radius: 10px;
+            }
+
+#navigation ul{ margin:0px; padding:0px; }
+
+#navigation ul li{list-style:none; float: left; margin: 0; padding: 0; font-weight:normal; }
+
+#navigation li a{float:left; color:#fff; margin: 0; font-size: 14px; text-decoration: none; padding:20px 30px;  }
+
+#navigation li a:hover, 
+#navigation li .active { color: #FFFFFF; background-color:#0000FF; },
+
+
+.clear{clear:both;}
+
+
+/*                               customize bootstrap                  */
+
+
+.btn {
+  border-color: #c5c5c5     !important;
+  border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25)     !important;
+}
+
+.btn-primary {
+  color: #ffffff        !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25)    !important;
+  background-color: #006dcc     !important;
+  *background-color: #0044cc    !important;
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc)      !important;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc))      !important;
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc)       !important;
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc)           !important;
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc)         !important ;
+  background-repeat: repeat-x        !important;
+  border-color: #0044cc #0044cc #002a80       !important;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25)          !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0)  !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)     !important;
+}
+
+
+.btn-large {
+  padding: 11px 19px           !important;
+  font-size: 17.5px            !important;
+  -webkit-border-radius: 6px   !important;
+     -moz-border-radius: 6px   !important;
+          border-radius: 6px   !important;
+}
+
+textarea { border:1px solid #999999; width:20%; margin:5px 0; padding:3px; }
+
+
+/*.............................................................Footer................... */
+
+.footer{text-align:right; margin-bottom:40px;}
+
+
+
+
+/*...........................Table................... */
+
+
+td { padding: 10px; text-align:left; }
+
+.gray td {background-color:#f7f7f7;}
+
+.table_main { border-top: 1px solid #bab9b9; float: right;}
+
+.table_main .delete {background:url(images/x2.gif) center left no-repeat; padding-left:12px;}
+
+tr td {border-bottom: 1px solid #bab9b9;}
+
+tr:hover  {
+  background-color:#F0F0F0; color: #000;
+  cursor:pointer;
+}
+
+.eval{background-color:#FFFFFF;
+
+}
+
+/*..........................................................*/
+
+.right_head {
+	width: 500px;
+	float: left;
+	text-align:left;
+	margin-top: 60px 0;
+	margin: 0;
+}
+
+.right_head_p{
+	margin-bottom:-6px; 
+	font-family:Georgia; 
+	font-size:20px;
+}
+
+/*..............Pagination buttones................*/
+
+
+
+.pagination {
+    text-align: center;
+    margin: 20px
+}
+.pagination a, .pagination strong {
+    background: #fff;
+    display: inline-block;
+    margin-right: 3px;
+    padding: 4px 12px;
+    text-decoration: none;
+	line-height: 1.5em;
+	
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.pagination a:hover {
+    background-color: #BEBEBE;
+    color: #fff;
+    cursor:pointer;
+}
+.pagination a:active {
+	background: rgba(190, 190, 190, 0.75);
+}
+.pagination strong {
+    color: #fff;
+    background-color: #BEBEBE;
+}
+
+#adduser{
+
+    float: right;
+    margin-right: 20px;
+margin-top: -20px;
+cursor: pointer;
+}
